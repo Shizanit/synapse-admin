@@ -6,12 +6,12 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base: "./",
   plugins: [
-    react(),
-    vitePluginVersionMark({
-      command: "git describe --tags",
-      ifMeta: true,
-      ifLog: true,
-      ifGlobal: true,
-    }),
+    // react(),
+    // vitePluginVersionMark({
+    //   command: "git describe --tags",
+    //   ifMeta: true,
+    //   ifLog: true,
+    //   ifGlobal: true,
+    // }),
   ],
 });
